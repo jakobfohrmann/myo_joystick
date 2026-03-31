@@ -1,0 +1,91 @@
+#git repos
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+uitb/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MuJoCo
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.avi
+*.mov
+
+# Model files (keep structure, ignore large files)
+*.zip
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.pkl
+
+# Rendered images (keep renders folder structure but ignore content)
+renders/*.png
+renders/*.jpg
+
+# Logs
+*.log
+*.txt
+MUJOCO_LOG.TXT
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific
+ppo_myo_models/*.zip
+*.stl.bak
+
+# Office documents (large binary files)
+*.pptx
+*.ppt
+*.pdf
+*.docx
+*.doc
+*.xlsx
+*.xls
+~$*
+
+# Keep important structure
+!project/renders/.gitkeep
+!ppo_myo_models/.gitkeep
+
